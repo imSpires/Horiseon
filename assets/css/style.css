@@ -9,15 +9,6 @@ body {
     background-color: #d9dcd6;
 }
 
-p {
-    font-size: 16px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
 /* Header */
 .header {
     padding: 20px;
@@ -52,6 +43,10 @@ a {
     margin-left: 25px;
 }
 
+.header a {
+    color: #ffffff;
+    text-decoration: none;
+}
 /* End header */
 
 
@@ -65,6 +60,11 @@ a {
     background-position: center;
 }
 /* End Hero */
+
+/* Styles shared by article section and benefit section */
+.article-content p, .benefits p {
+    font-size: 16px;
+}
 
 /* Article section content */
 .article-container {
